@@ -1,0 +1,49 @@
+﻿<Window x:Class="Wallet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wallet"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="530" WindowStartupLocation="CenterScreen">
+    <StackPanel Orientation="Vertical">
+        <Grid Height="325">
+            <StackPanel Margin="10,201,50,94" Orientation="Horizontal">
+
+                <Slider x:Name="btc" Value="0" Minimum="0" Maximum="100" SelectionStart="0" Height="30" 
+                    IsSelectionRangeEnabled="True" ValueChanged="SliderBtcChanged"
+                    TickPlacement="Both" TickFrequency="1" IsSnapToTickEnabled="True" Width="326"/>
+                <TextBox x:Name="btcProc" HorizontalAlignment="Right" Height="23" Margin="0,4,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50"/>
+                <TextBlock HorizontalAlignment="Right" Margin="0,4,0,0" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="23" Width="15" FontSize="16" Grid.IsSharedSizeScope="True" />
+                <Label Content="BTC" HorizontalAlignment="Right" Margin="0,3,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.531,1.25"/>
+            </StackPanel>
+            <TextBlock HorizontalAlignment="Left" Margin="24,10,0,0" TextWrapping="Wrap" Text="Цена товара" VerticalAlignment="Top"/>
+            <TextBox x:Name="itemValue" HorizontalAlignment="Left" Height="23" Margin="98,3,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" DragEnter="ItemValueDragEnter"/>
+            <TextBlock HorizontalAlignment="Left" Margin="24,38,0,0" TextWrapping="Wrap" Text="Тенге" VerticalAlignment="Top" RenderTransformOrigin="0.576,1.089"/>
+            <TextBlock HorizontalAlignment="Left" Margin="24,97,0,0" TextWrapping="Wrap" Text="Биткоин" VerticalAlignment="Top" RenderTransformOrigin="0.61,1.06"/>
+            <TextBox x:Name="tgn" HorizontalAlignment="Left" Height="23" Margin="98,31,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" DragEnter="TgnDragEnter"/>
+            <TextBox x:Name="btc1" HorizontalAlignment="Left" Height="23" Margin="98,90,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" DragEnter="Btc1DragEnter"/>
+            <TextBlock HorizontalAlignment="Left" Margin="24,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Тг за Btc"/></TextBlock>
+            <TextBox x:Name="tgnInBtc" HorizontalAlignment="Left" Height="23" Margin="98,62,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" DragEnter="TgnInBtcDragEnter"/>
+            <StackPanel Margin="10,142,50,153" Orientation="Horizontal">
+                <Slider x:Name="tng" Value="0" Minimum="0" Maximum="100" SelectionStart="0" Height="30" 
+                    IsSelectionRangeEnabled="True" ValueChanged="SliderTgnChanged"
+                    TickPlacement="Both" TickFrequency="1" IsSnapToTickEnabled="True" Width="326" />
+
+                <TextBox x:Name="tngProc" HorizontalAlignment="Right" Height="23" Margin="0,4,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50"/>
+                <TextBlock HorizontalAlignment="Right" Margin="0,4,0,0" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="23" Width="15" FontSize="16"/>
+                <Label Content="TNG" HorizontalAlignment="Right" Margin="0,4,0,0" VerticalAlignment="Top"/>
+            </StackPanel>
+            <ProgressBar HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top"
+                         Height="10"  Width="500"
+                         Maximum="100"
+                         />
+            <TextBlock HorizontalAlignment="Left" Margin="223,90,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="23" FontSize="16"/>
+            <TextBox x:Name="translateTgn" HorizontalAlignment="Left" Height="23" Margin="240,90,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="150"/>
+            <TextBlock HorizontalAlignment="Left" Margin="395,90,0,0" TextWrapping="Wrap" Text="Тг" VerticalAlignment="Top" Height="23" FontSize="16"/>
+
+        </Grid>
+
+
+    </StackPanel>
+</Window>

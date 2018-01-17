@@ -1,0 +1,14 @@
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\bin\Debug\Wallet.exe.config
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\bin\Debug\Wallet.exe
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\bin\Debug\Wallet.pdb
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\obj\Debug\Wallet.csprojResolveAssemblyReference.cache
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\obj\Debug\MainWindow.g.cs
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\obj\Debug\App.g.cs
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\obj\Debug\Wallet_MarkupCompile.cache
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\obj\Debug\Wallet_MarkupCompile.lref
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\obj\Debug\MainWindow.baml
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\obj\Debug\Wallet.g.resources
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\obj\Debug\Wallet.Properties.Resources.resources
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\obj\Debug\Wallet.csproj.GenerateResource.Cache
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\obj\Debug\Wallet.exe
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\Wallet\Wallet\obj\Debug\Wallet.pdb
